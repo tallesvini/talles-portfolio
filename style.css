@@ -475,6 +475,7 @@ body {
 .skill-js,
 .skill-react,
 .skill-bootstrap,
+.skill-angular,
 .skill-node,
 .skill-csharp,
 .skill-sql {
@@ -531,6 +532,16 @@ body {
     height: 5vh;
 }
 
+.title-angular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--solid-color-1);
+    background-color: #E6323E;
+    width: 180px;
+    height: 5vh;
+}
+
 .title-node {
     display: flex;
     align-items: center;
@@ -566,6 +577,7 @@ body {
 .porcentagem-js,
 .porcentagem-react,
 .porcentagem-bootstrap,
+.porcentagem-angular,
 .porcentagem-node,
 .porcentagem-csharp,
 .porcentagem-sql {
@@ -584,7 +596,7 @@ body {
 .resultado-css {
     background-color: #3598DB;
     height: 5vh;
-    width: 90%;
+    width: 85%;
 }
 
 .resultado-js {
@@ -603,6 +615,12 @@ body {
     background-color: #673F94;
     height: 5vh;
     width: 65%;
+}
+
+.resultado-angular {
+    background-color: #F16E76;
+    height: 5vh;
+    width: 60%;
 }
 
 .resultado-node {
@@ -665,7 +683,7 @@ body {
 .timeline ul {
     list-style-type: none;
     border-left: 2px solid var(--solid-color-1);
-    width: 70vw;
+    width: auto;
     margin: 0 auto;
     padding: 10px 5px;
 }
@@ -837,6 +855,7 @@ body {
 
     .title-html,
     .title-bootstrap,
+    .title-angular,
     .title-csharp,
     .title-css,
     .title-html,
