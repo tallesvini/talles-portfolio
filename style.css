@@ -170,7 +170,7 @@ body {
 .github,
 .whatsapp,
 .email {
-    border: solid 2px var(--second-color);
+    border: solid 1px var(--second-color);
     padding: 11px 15px;
     border-radius: 50%;
 }
@@ -467,7 +467,6 @@ body {
 .skill-css,
 .skill-js,
 .skill-react,
-.skill-bootstrap,
 .skill-angular,
 .skill-node,
 .skill-csharp,
@@ -514,16 +513,6 @@ body {
     justify-content: center;
     color: var(--solid-color-1);
     background-color: #00C180;
-    width: 180px;
-    height: 4vh;
-}
-
-.title-bootstrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--solid-color-1);
-    background-color: #572B8A;
     width: 180px;
     height: 4vh;
 }
@@ -591,7 +580,6 @@ body {
 .porcentagem-css,
 .porcentagem-js,
 .porcentagem-react,
-.porcentagem-bootstrap,
 .porcentagem-angular,
 .porcentagem-node,
 .porcentagem-csharp,
@@ -620,19 +608,13 @@ body {
 .resultado-react {
     background-color: #63d7e9;
     height: 4vh;
-    width: 60%;
+    width: 70%;
 }
 
 .resultado-vuejs {
     background-color: #48D191;
     height: 4vh;
     width: 75%;
-}
-
-.resultado-bootstrap {
-    background-color: #673F94;
-    height: 4vh;
-    width: 65%;
 }
 
 .resultado-angular {
@@ -656,19 +638,19 @@ body {
 .resultado-typescript {
     background-color: #3178C6;
     height: 4vh;
-    width: 60%;
+    width: 70%;
 }
 
 .resultado-csharp {
     background-color: #673F94;
     height: 4vh;
-    width: 90%;
+    width: 95%;
 }
 
 .resultado-sql {
     background-color: #3598DB;
     height: 4vh;
-    width: 75%;
+    width: 80%;
 }
 
 .porcentagem {
@@ -977,7 +959,6 @@ body {
         position: relative !important;
     }
 
-    .title-bootstrap,
     .title-angular,
     .title-csharp,
     .title-css,
